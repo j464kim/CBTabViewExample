@@ -3,8 +3,8 @@ import { Text, StyleSheet } from "react-native";
 
 export const Header = () => (
   <>
-    <Text style={styles.title}>CBTabView</Text>
-    <Text style={styles.subtitle}>A Scrollable header, tab example.</Text>
+    <Text style={styles.title}>Welcome, Rok</Text>
+    <Text style={styles.subtitle}>Seattle Office.</Text>
   </>
 );
 

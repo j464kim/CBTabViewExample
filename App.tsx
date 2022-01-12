@@ -59,10 +59,10 @@ export default function App() {
           setIndex={setIndex}
           width={initialWidth}
           routes={tabs}
-          renderTabBar={(p) => (
-            <CBAnimatedTabBar scrollY={scrollY}>
-              <CBTabBar {...p} />
-            </CBAnimatedTabBar>
+          renderTabBar={(p) => (<></>
+            // <CBAnimatedTabBar scrollY={scrollY}>
+            //   <CBTabBar {...p} />
+            // </CBAnimatedTabBar>
           )}
           renderScene={renderScene}
         />

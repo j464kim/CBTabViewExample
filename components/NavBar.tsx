@@ -16,7 +16,7 @@ export const NavBar: FunctionComponent = ({ children }) => {
 };
 
 export const NavBarTitle = () => (
-  <Text style={styles.title}>This is the title.</Text>
+  <Text style={styles.title}>Welcome, Rok</Text>
 );
 
 const styles = StyleSheet.create({
